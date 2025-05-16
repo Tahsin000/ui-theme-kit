@@ -2,7 +2,7 @@
 
 BookWise is a modern, responsive front-end for a booking management system designed for businesses that need to handle appointments, reservations, and schedules efficiently.
 
-![BookWise Screenshot](https://placehold.co/600x400/60a5fa/FFFFFF?text=BookWise+Screenshot)
+![BookWise Screenshot](https://github.com/user-attachments/assets/dd3ee76b-01a4-427e-bea3-27cafefc1380)
 
 ## Project Overview
 
