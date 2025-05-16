@@ -26,6 +26,3 @@ Each project is self-contained and documented within its respective folder.
 
 ---
 
-## License
-
-MIT License — free to use, modify, and distribute.
