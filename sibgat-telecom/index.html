@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sibgat Telecom - Mobile Phone Dealership in Bangladesh</title>
+    <meta
+      name="description"
+      content="Official dealership partner for Symphony, iTel and Tecno mobile phones in Bangladesh"
+    />
+    <!-- ShadCN UI -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@shadcn/ui@latest/dist/shadcn-ui.min.css"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <div class="logo">
+            <a href="#">
+              <h1>Sibgat Telecom</h1>
+            </a>
+          </div>
+          <div class="nav-links" id="navLinks">
+            <i class="fas fa-times close-menu" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="#home" class="active">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#brands">Our Brands</a></li>
+              <li><a href="#how-it-works">How It Works</a></li>
+              <li><a href="#dealership">Dealership</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="cta-button">
+            <a href="#dealership" class="primary-btn">Become a Dealer</a>
+          </div>
+          <i class="fas fa-bars open-menu" onclick="showMenu()"></i>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Bangladesh's Premier Mobile Phone Dealership</h1>
+          <p>
+            Authorized dealership partner for Symphony, iTel, and Tecno mobile
+            phones.
+          </p>
+          <div class="hero-buttons">
+            <a href="#dealership" class="primary-btn">Become a Dealer</a>
+            <a href="#contact" class="secondary-btn">Contact Us</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img
+            src="https://placehold.co/1280x720/2563eb/FFFFFF/png?text=Sibgat+Telecom"
+            alt="Sibgat Telecom - Mobile Dealership"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Brand Partners -->
+    <section class="brand-bar">
+      <div class="container">
+        <div class="brand-logos">
+          <div class="brand-logo">
+            <img src="/assets/images/symphony-logo.png" alt="Symphony" />
+          </div>
+          <div class="brand-logo">
+            <img src="/assets/images/itel-logo.png" alt="iTel" />
+          </div>
+          <div class="brand-logo">
+            <img src="/assets/images/tecno-logo.png" alt="Tecno" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Sibgat Telecom</h2>
+          <div class="divider"></div>
+          <p>Leading mobile phone dealership in Bangladesh since 2010</p>
+        </div>
+        <div class="about-content">
+          <div class="about-image">
+            <img
+              src="https://placehold.co/800x600/2563eb/FFFFFF/png?text=Our+Story"
+              alt="About Sibgat Telecom"
+            />
+          </div>
+          <div class="about-text">
+            <h3>Our Story</h3>
+            <p>
+              Sibgat Telecom is Bangladesh's premier mobile phone dealership
+              company, with over a decade of experience in the
+              telecommunications industry. We specialize in distributing
+              high-quality mobile phones from Symphony, iTel, and Tecno to
+              retailers and sub-dealers across the country.
+            </p>
+            <p>
+              With a network of over 500 sales representatives and sub-dealers,
+              we've established a strong presence throughout Bangladesh,
+              ensuring that quality mobile devices reach consumers in every
+              corner of the nation.
+            </p>
+
+            <div class="stats-container">
+              <div class="stat-card">
+                <i class="fas fa-chart-line"></i>
+                <h4>10+</h4>
+                <p>Years of Experience</p>
+              </div>
+              <div class="stat-card">
+                <i class="fas fa-users"></i>
+                <h4>500+</h4>
+                <p>Sales Representatives</p>
+              </div>
+              <div class="stat-card">
+                <i class="fas fa-map-marker-alt"></i>
+                <h4>64</h4>
+                <p>Districts Covered</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Brands Section -->
+    <section id="brands" class="brands">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Partner Brands</h2>
+          <div class="divider"></div>
+          <p>
+            We partner with the most trusted mobile phone brands in Bangladesh
+          </p>
+        </div>
+        <div class="brand-grid">
+          <div class="brand-card">
+            <div class="brand-logo">
+              <img
+                src="https://placehold.co/400x300/2563eb/FFFFFF/png?text=Symphony"
+                alt="Symphony"
+              />
+            </div>
+            <h3>Symphony</h3>
+            <p>
+              Bangladesh's leading mobile phone brand offering quality devices
+              at affordable prices. Known for their reliable performance and
+              nationwide service network.
+            </p>
+            <div class="brand-products">
+              <span class="tag">Smartphones</span>
+              <span class="tag">Feature Phones</span>
+              <span class="tag">Tablets</span>
+            </div>
+            <a href="#" class="text-btn">View Symphony Products</a>
+          </div>
+          <div class="brand-card">
+            <div class="brand-logo">
+              <img
+                src="https://placehold.co/400x300/2563eb/FFFFFF/png?text=iTel"
+                alt="iTel"
+              />
+            </div>
+            <h3>iTel</h3>
+            <p>
+              A global brand known for budget-friendly smartphones with
+              excellent battery life and durability. Popular among first-time
+              smartphone users and the value-conscious market.
+            </p>
+            <div class="brand-products">
+              <span class="tag">Budget Smartphones</span>
+              <span class="tag">Feature Phones</span>
+              <span class="tag">Accessories</span>
+            </div>
+            <a href="#" class="text-btn">View iTel Products</a>
+          </div>
+          <div class="brand-card">
+            <div class="brand-logo">
+              <img
+                src="https://placehold.co/400x300/2563eb/FFFFFF/png?text=Tecno"
+                alt="Tecno"
+              />
+            </div>
+            <h3>Tecno</h3>
+            <p>
+              Specializing in camera-centric smartphones with innovative
+              features at competitive prices. Known for powerful hardware
+              specifications and premium design.
+            </p>
+            <div class="brand-products">
+              <span class="tag">Camera Phones</span>
+              <span class="tag">Premium Devices</span>
+              <span class="tag">Smart Accessories</span>
+            </div>
+            <a href="#" class="text-btn">View Tecno Products</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+      <div class="container">
+        <div class="section-header">
+          <h2>How Our Dealership Works</h2>
+          <div class="divider"></div>
+          <p>Simple steps to become our business partner</p>
+        </div>
+        <div class="steps-container">
+          <div class="step-card">
+            <div class="step-icon">
+              <i class="fas fa-user-plus"></i>
+            </div>
+            <h3>Step 1: Apply</h3>
+            <p>
+              Fill out our dealership application form with your business
+              details and contact information.
+            </p>
+          </div>
+          <div class="step-card">
+            <div class="step-icon">
+              <i class="fas fa-comments"></i>
+            </div>
+            <h3>Step 2: Consultation</h3>
+            <p>
+              Our team will contact you to discuss dealership options,
+              investment requirements, and territory planning.
+            </p>
+          </div>
+          <div class="step-card">
+            <div class="step-icon">
+              <i class="fas fa-file-contract"></i>
+            </div>
+            <h3>Step 3: Agreement</h3>
+            <p>
+              Complete the official dealership agreement and documentation
+              process.
+            </p>
+          </div>
+          <div class="step-card">
+            <div class="step-icon">
+              <i class="fas fa-chalkboard-teacher"></i>
+            </div>
+            <h3>Step 4: Training</h3>
+            <p>
+              Receive comprehensive product knowledge and sales training for
+              your team.
+            </p>
+          </div>
+          <div class="step-card">
+            <div class="step-icon">
+              <i class="fas fa-truck"></i>
+            </div>
+            <h3>Step 5: Inventory</h3>
+            <p>
+              Receive your initial inventory and begin selling with our
+              marketing support.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+      <div class="container">
+        <div class="section-header">
+          <h2>Why Partner With Us</h2>
+          <div class="divider"></div>
+          <p>Benefits of becoming a Sibgat Telecom dealer</p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-tags"></i>
+            </div>
+            <h3>Competitive Pricing</h3>
+            <p>
+              Access to wholesale rates that ensure healthy profit margins for
+              dealers at all levels.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-bullhorn"></i>
+            </div>
+            <h3>Marketing Support</h3>
+            <p>
+              Receive branded promotional materials, display units, and local
+              marketing assistance.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-chart-pie"></i>
+            </div>
+            <h3>Business Analytics</h3>
+            <p>
+              Gain insights into market trends and consumer preferences through
+              our dealer portal.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-hands-helping"></i>
+            </div>
+            <h3>Dedicated Support</h3>
+            <p>
+              Each dealer is assigned a dedicated account manager for ongoing
+              assistance.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-truck-loading"></i>
+            </div>
+            <h3>Fast Inventory Replenishment</h3>
+            <p>
+              Quick order processing and delivery to ensure you never miss a
+              sale.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-award"></i>
+            </div>
+            <h3>Dealer Incentives</h3>
+            <p>
+              Regular performance-based incentives and recognition programs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2>What Our Dealers Say</h2>
+          <div class="divider"></div>
+          <p>Success stories from our dealership network</p>
+        </div>
+        <div class="testimonial-slider" id="testimonialSlider">
+          <div class="testimonial-slide active">
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <i class="fas fa-quote-left"></i>
+                <p>
+                  "Partnering with Sibgat Telecom has transformed my retail
+                  business. Their competitive pricing and reliable supply chain
+                  have helped me grow my mobile shop significantly over the past
+                  two years."
+                </p>
+                <div class="testimonial-info">
+                  <img
+                    src="https://placehold.co/100x100/2563eb/FFFFFF/png?text=MD"
+                    alt="Dealer"
+                  />
+                  <div>
+                    <h4>Mohammed Rahman</h4>
+                    <p>Mobile Shop Owner, Dhaka</p>
+                    <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <i class="fas fa-quote-left"></i>
+                <p>
+                  "The training and marketing support from Sibgat Telecom is
+                  exceptional. They provide timely deliveries, excellent
+                  after-sales service, and product training that helps me serve
+                  my customers better."
+                </p>
+                <div class="testimonial-info">
+                  <img
+                    src="https://placehold.co/100x100/2563eb/FFFFFF/png?text=FK"
+                    alt="Dealer"
+                  />
+                  <div>
+                    <h4>Farhana Khatun</h4>
+                    <p>Electronics Store Owner, Chittagong</p>
+                    <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <i class="fas fa-quote-left"></i>
+                <p>
+                  "As a new dealer, Sibgat Telecom guided me throughout the
+                  process. Their transparent business model and frequent
+                  promotional offers help me maintain a competitive edge in my
+                  local market."
+                </p>
+                <div class="testimonial-info">
+                  <img
+                    src="https://placehold.co/100x100/2563eb/FFFFFF/png?text=AK"
+                    alt="Dealer"
+                  />
+                  <div>
+                    <h4>Abdul Karim</h4>
+                    <p>Mobile Dealer, Sylhet</p>
+                    <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-controls">
+            <button class="prev-btn" id="prevBtn">
+              <i class="fas fa-arrow-left"></i>
+            </button>
+            <div class="slider-dots">
+              <span class="dot active" data-slide="0"></span>
+              <span class="dot" data-slide="1"></span>
+              <span class="dot" data-slide="2"></span>
+            </div>
+            <button class="next-btn" id="nextBtn">
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dealership Section -->
+    <section id="dealership" class="dealership">
+      <div class="container">
+        <div class="section-header">
+          <h2>Become a Dealer</h2>
+          <div class="divider"></div>
+          <p>Join our network of successful mobile phone dealers</p>
+        </div>
+        <div class="dealership-content">
+          <div class="dealership-info">
+            <h3>Dealership Benefits</h3>
+            <ul class="benefit-list">
+              <li>
+                <i class="fas fa-check-circle"></i> Exclusive territory rights
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i> Competitive wholesale
+                pricing
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i> Regular product launches and
+                promotions
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i> Comprehensive training
+                programs
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i> Marketing and merchandising
+                support
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i> Dedicated account management
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i> Bonus incentives and rewards
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i> Official brand certification
+              </li>
+            </ul>
+            <div class="info-cta">
+              <h4>Investment Range</h4>
+              <p>Dealership opportunities starting from 5 Lakh BDT</p>
+            </div>
+          </div>
+          <div class="dealership-form-container">
+            <div class="form-card">
+              <h3>Apply for Dealership</h3>
+              <form id="dealershipForm" class="dealership-form">
+                <div class="form-group">
+                  <label for="name">Full Name*</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number*</label>
+                  <input type="tel" id="phone" name="phone" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address*</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                  <label for="district">District*</label>
+                  <select id="district" name="district" required>
+                    <option value="">Select District</option>
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="Chittagong">Chittagong</option>
+                    <option value="Rajshahi">Rajshahi</option>
+                    <option value="Khulna">Khulna</option>
+                    <option value="Sylhet">Sylhet</option>
+                    <option value="Barisal">Barisal</option>
+                    <option value="Rangpur">Rangpur</option>
+                    <option value="Mymensingh">Mymensingh</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="business">Business Experience</label>
+                  <select id="business" name="business">
+                    <option value="">Select Experience</option>
+                    <option value="No Experience">No Prior Experience</option>
+                    <option value="0-2 years">0-2 years</option>
+                    <option value="2-5 years">2-5 years</option>
+                    <option value="5+ years">5+ years</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="investment">Investment Capacity*</label>
+                  <select id="investment" name="investment" required>
+                    <option value="">Select Investment Range</option>
+                    <option value="5-10 Lakh">5-10 Lakh BDT</option>
+                    <option value="10-15 Lakh">10-15 Lakh BDT</option>
+                    <option value="15-25 Lakh">15-25 Lakh BDT</option>
+                    <option value="25+ Lakh">25+ Lakh BDT</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="message">Additional Information</label>
+                  <textarea id="message" name="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">
+                  Submit Application
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contact Us</h2>
+          <div class="divider"></div>
+          <p>Get in touch with our dealership team</p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Head Office</h3>
+                <p>
+                  123 Motijheel Commercial Area,<br />Dhaka-1000, Bangladesh
+                </p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Phone Numbers</h3>
+                <p>
+                  +880 1712-345678 (Dealership Inquiries)<br />+880 1812-345678
+                  (General Information)
+                </p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Email Addresses</h3>
+                <p>dealership@sibgattelecom.com<br />info@sibgattelecom.com</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Business Hours</h3>
+                <p>
+                  Saturday - Thursday: 9:00 AM - 6:00 PM<br />Friday: Closed
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14608.036944846652!2d90.40486399999999!3d23.7339631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b85c366077d7%3A0x654b5e8d72ac56df!2sMotijheel%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1651234567890!5m2!1sen!2sbd"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Ready to Grow Your Business?</h2>
+          <p>
+            Join Sibgat Telecom's dealership network and become part of
+            Bangladesh's fastest growing mobile phone distribution company.
+          </p>
+          <a href="#dealership" class="primary-btn">Apply for Dealership</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-company">
+            <h3>Sibgat Telecom</h3>
+            <p>
+              Authorized dealership partner for Symphony, iTel, and Tecno mobile
+              phones in Bangladesh.
+            </p>
+            <div class="social-links">
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" aria-label="YouTube"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#brands">Our Brands</a></li>
+              <li><a href="#how-it-works">How It Works</a></li>
+              <li><a href="#dealership">Dealership</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>Our Brands</h4>
+            <ul>
+              <li><a href="#">Symphony</a></li>
+              <li><a href="#">iTel</a></li>
+              <li><a href="#">Tecno</a></li>
+            </ul>
+          </div>
+          <div class="footer-newsletter">
+            <h4>Subscribe to Updates</h4>
+            <p>Stay updated with our latest offers and product launches</p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Your Email" required />
+              <button type="submit"><i class="fas fa-paper-plane"></i></button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 Sibgat Telecom. All rights reserved.</p>
+          <div class="footer-legal">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- ShadCN UI Script -->
+    <script src="https://cdn.jsdelivr.net/npm/@shadcn/ui@latest/dist/shadcn-ui.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
