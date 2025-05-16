@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookWise - Booking Management System</title>
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <div class="logo"><i class="fas fa-calendar-check"></i> BookWise</div>
+          <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#book-demo">Book a Demo</a>
+            <a href="#testimonials">Testimonials</a>
+          </nav>
+          <button class="mobile-nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Streamline Your Booking Management</h1>
+            <p>
+              BookWise helps businesses manage appointments, reservations, and
+              bookings with a powerful, easy-to-use platform that saves time and
+              improves customer satisfaction.
+            </p>
+            <div>
+              <a href="#book-demo" class="btn btn-lg btn-primary"
+                >Book a Demo</a
+              >
+              <a href="#features" class="btn btn-lg btn-transparent"
+                >Explore Features</a
+              >
+            </div>
+          </div>
+          <div class="hero-image">
+            <img
+              src="https://placehold.co/600x400/60a5fa/FFFFFF?text=Booking+System"
+              alt="BookWise Dashboard"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <div class="container">
+        <h2 class="section-title">Powerful Booking Features</h2>
+        <p class="section-subtitle">
+          Everything you need to manage schedules, resources, and client
+          bookings in one place
+        </p>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-calendar-alt"></i>
+            </div>
+            <h3>Smart Scheduling</h3>
+            <p>
+              Intelligent scheduling algorithms that optimize your availability
+              and prevent double-bookings automatically.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-bell"></i>
+            </div>
+            <h3>Automated Reminders</h3>
+            <p>
+              Reduce no-shows with customizable email and SMS reminders sent to
+              clients before appointments.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h3>Mobile Booking</h3>
+            <p>
+              Let clients book from any device with a fully responsive booking
+              interface that works on all screen sizes.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-sync"></i>
+            </div>
+            <h3>Calendar Sync</h3>
+            <p>
+              Seamlessly sync with Google Calendar, Outlook, and other popular
+              calendar applications.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-credit-card"></i>
+            </div>
+            <h3>Secure Payments</h3>
+            <p>
+              Accept deposits and payments online with integrated payment
+              processing and invoicing.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3>Detailed Analytics</h3>
+            <p>
+              Gain insights into booking patterns, client behavior, and revenue
+              with comprehensive reports.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+      <div class="container">
+        <h2 class="section-title">How BookWise Works</h2>
+        <p class="section-subtitle">
+          Getting started is easy with our simple three-step process
+        </p>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h3>Set Your Availability</h3>
+            <p>
+              Define your working hours, services, and resources to create your
+              personalized booking rules.
+            </p>
+          </div>
+
+          <div class="step">
+            <div class="step-number">2</div>
+            <h3>Share Your Booking Page</h3>
+            <p>
+              Embed your booking widget on your website or share your booking
+              link with clients.
+            </p>
+          </div>
+
+          <div class="step">
+            <div class="step-number">3</div>
+            <h3>Manage Appointments</h3>
+            <p>
+              Approve, reschedule, or cancel bookings from a centralized
+              dashboard with a few clicks.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="book-demo" class="booking-demo">
+      <div class="container">
+        <h2 class="section-title">Book a Free Demo</h2>
+        <p class="section-subtitle">
+          See how BookWise can transform your business with a personalized demo
+        </p>
+
+        <div class="demo-container">
+          <div class="booking-form">
+            <h3 class="form-title">Schedule Your Demo</h3>
+            <form id="demo-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="company">Company Name</label>
+                  <input
+                    type="text"
+                    id="company"
+                    placeholder="Enter your company name"
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="industry">Industry</label>
+                  <select id="industry" required>
+                    <option value="" selected disabled>
+                      Select your industry
+                    </option>
+                    <option value="healthcare">Healthcare</option>
+                    <option value="beauty">Beauty & Wellness</option>
+                    <option value="fitness">Fitness</option>
+                    <option value="education">Education</option>
+                    <option value="professional">Professional Services</option>
+                    <option value="hospitality">Hospitality</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="date">Preferred Date</label>
+                  <input type="date" id="date" required />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="time">Preferred Time</label>
+                  <select id="time" required>
+                    <option value="" selected disabled>
+                      Select a time slot
+                    </option>
+                    <option value="9:00">9:00 AM</option>
+                    <option value="10:00">10:00 AM</option>
+                    <option value="11:00">11:00 AM</option>
+                    <option value="13:00">1:00 PM</option>
+                    <option value="14:00">2:00 PM</option>
+                    <option value="15:00">3:00 PM</option>
+                    <option value="16:00">4:00 PM</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="message">Additional Information</label>
+                  <textarea
+                    id="message"
+                    rows="3"
+                    placeholder="Tell us about your booking needs"
+                  ></textarea>
+                </div>
+              </div>
+
+              <button type="submit" class="submit-btn">Schedule Demo</button>
+            </form>
+          </div>
+
+          <div class="demo-image">
+            <img
+              src="https://placehold.co/600x800/1d4ed8/FFFFFF?text=BookWise+Demo"
+              alt="BookWise Demo"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <h2 class="section-title">What Our Customers Say</h2>
+        <p class="section-subtitle">
+          Join thousands of businesses that have transformed their booking
+          process
+        </p>
+
+        <div class="testimonials-grid">
+          <div class="testimonial">
+            <p class="testimonial-content">
+              "BookWise has completely transformed how we manage appointments.
+              Our no-show rate has decreased by 60% and our clients love how
+              easy it is to book online."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <img
+                  src="https://placehold.co/100x100"
+                  alt="Sarah from Wellness Center"
+                />
+              </div>
+              <div class="author-info">
+                <h4>Sarah Johnson</h4>
+                <p>Lotus Wellness Center</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <p class="testimonial-content">
+              "The calendar sync feature alone has saved our team countless
+              hours. We've increased our booking efficiency by 40% since
+              implementing BookWise."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <img
+                  src="https://placehold.co/100x100"
+                  alt="Michael from IT Services"
+                />
+              </div>
+              <div class="author-info">
+                <h4>Michael Chen</h4>
+                <p>TechPro IT Services</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <p class="testimonial-content">
+              "As a small salon, we needed an affordable solution that could
+              grow with us. BookWise provided exactly that, and we've seen a 25%
+              increase in new clients."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <img
+                  src="https://placehold.co/100x100"
+                  alt="Jessica from Hair Salon"
+                />
+              </div>
+              <div class="author-info">
+                <h4>Jessica Williams</h4>
+                <p>Style Studio Salon</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <h2>Ready to Streamline Your Booking Process?</h2>
+        <p>
+          Join thousands of businesses that trust BookWise to manage their
+          bookings and appointments.
+        </p>
+        <div class="cta-buttons">
+          <a href="#book-demo" class="btn btn-lg btn-white">Book a Demo</a>
+          <a href="#" class="btn btn-lg btn-transparent">View Pricing</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <div class="logo">
+              <i class="fas fa-calendar-check"></i> BookWise
+            </div>
+            <p style="margin-top: 1rem">
+              The smart booking solution for modern businesses.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="footer-column">
+            <h3>Product</h3>
+            <ul class="footer-links">
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Integrations</a></li>
+              <li><a href="#">Updates</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Resources</h3>
+            <ul class="footer-links">
+              <li><a href="#">Documentation</a></li>
+              <li><a href="#">Tutorials</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Support Center</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Company</h3>
+            <ul class="footer-links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Partners</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="copyright">&copy; 2023 BookWise. All rights reserved.</div>
+      </div>
+    </footer>
+
+    <div class="theme-switch" id="theme-switch">
+      <i class="fas fa-moon"></i>
+    </div>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <div class="mobile-nav-overlay" id="mobile-nav-overlay">
+      <div class="mobile-nav-content">
+        <button class="mobile-nav-close" id="mobile-nav-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="mobile-nav-links">
+          <a href="#home">Home</a>
+          <a href="#features">Features</a>
+          <a href="#how-it-works">How It Works</a>
+          <a href="#book-demo">Book a Demo</a>
+          <a href="#testimonials">Testimonials</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
