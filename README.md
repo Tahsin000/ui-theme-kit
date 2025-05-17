@@ -24,6 +24,15 @@ A modern, responsive landing page for Sibgat Telecom, a mobile phone dealership 
 
 > This landing page showcases Sibgat Telecom's services as an authorized dealer for multiple mobile phone brands in Bangladesh. It's designed to help the company transition from a purely offline business model to having an online presence that can attract new potential dealers and showcase their brand partnerships.
 
+### 3. [Personal Portfolio](/portfolio-personal-v.01)
+**Personal Portfolio - Mohammad Kafil Uddin**  
+A responsive personal landing page for Mohammad Kafil Uddin, Principal Acting at Baitush Sharaf Akhtaria Adarsh Fazil Degree Madrasa.
+
+📂 Path: `/personal-portfolio`  
+🧩 Status: Static landing page (UI only)
+
+> A professional portfolio website featuring a green-themed Islamic aesthetic design. The site includes an interactive timeline showcasing educational and professional achievements, along with a validated contact form for potential opportunities.
+
 
 ## 🚀 How to Contribute
 
